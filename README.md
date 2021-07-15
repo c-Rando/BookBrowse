@@ -12,7 +12,7 @@ Develop >
  ## > public - standard react public import folder
 # > src -
  ## > components
-    > LoginForm.js - 
+    > LoginForm.js - renders user information to the document and takes user login input 
     > Navbar.js - 
     > SignupForm.js - 
  ## > pages
