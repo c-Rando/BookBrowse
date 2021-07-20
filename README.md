@@ -1,58 +1,29 @@
-# BookBrowse
-this is a book search engine
+# BOOKBROWSE
+![github](https://img.shields.io/badge/license-Apache-brightgreen.svg)
+
+### Brief Overview
+**BOOKBROWSE** is a Book search engine that will use the google api to search books
+
+The daily schedule features:
+  * 0900 - 1700
+  * Current-time tracking
+  * Local Storage Access
+  * Responsive design
+
+User information will be stored in Local Storage until it is cleared, so that the user may keep track over several sessions of use.
+
+        
+
+### Technologies
+
+```
+external javascript sheets
+external css styling sheets
+LocalStorage
+```
+
+Click here ( https://youtu.be/YPxd6bx4su8 ) to see a tutorial of this application.
 
 
-This is an application designed for the user to be able to search a book based on the apollo express server. 
-
-Develop > 
-
-
-# client >
- ## > node - module packages
- ## > public - standard react public import folder
-# > src -
- ## > components
-    > LoginForm.js - renders user information to the document and takes user login input 
-    > Navbar.js - 
-    > SignupForm.js - 
- ## > pages
-    > user-controller - 
-
-# server > 
- ## > config
-    > connection.js - 
-
- ## > controllers
-    > user-controller - 
-
- ## > models
-    > index.js - 
-    > Book.js - 
-    > User.js - 
-
- ## > routes
-    > index.js - 
-    > api - 
-
- ## > schemas
-    > index.js - 
-    > resolvers.js - 
-    > typeDefs.js - 
-
- ## > utils 
-    > auth.js - 
-
- ## > package.json (inside of server)
- ## > server.js 
-
- ```
- const express = require('express');
-const { ApolloServer, gql } = require('apollo-server-express');
-const path = require('path');
-const db = require('./config/connection');
-const { typeDefs, resolvers } = require('./schemas');
-
- ```
-
-
- ## > package.json (inside of root folder)
+### Author
+  * Christopher Rando
